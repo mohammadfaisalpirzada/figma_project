@@ -1,0 +1,84 @@
+/* styles/Footer.module.css */
+.footer {
+  background-color: #2C2C2C;
+  color: #FFFFFF;
+  padding: 40px 20px;
+  width: 100%; /* Full-width footer */
+  height: 417px; /* Set the overall height of the footer */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between; /* Space between the 3 sections */
+  align-items: flex-start;
+  width: 100%; /* Full width for the container */
+  max-width: 1440px; /* Limit container width */
+  margin: 0 auto; /* Center the container */
+  position: relative; /* Allow absolute positioning for the sections */
+}
+
+/* Left: Logo Section */
+.footer__logoSection {
+  width: 145px;  /* Width of the logo section */
+  height: 94px;  /* Height of the logo section */
+  margin-left: 40px;
+  margin-top: 58px;   /* Adjust for vertical positioning */
+}
+
+/* Center: Information and Contacts Section */
+.footer__centerSection {
+  display: flex;
+  justify-content: space-between; /* Space between Information and Contacts */
+  gap: 30px; /* Gap between Information and Contacts sections */
+  width: 605px; /* Fixed width for the center section */
+  height: 229px; /* Fixed height for the center section */
+  position: absolute;
+  left: 360px; /* X-axis positioning */
+  top: 58px; /* Y-axis positioning */
+}
+
+.footer__info ul, .footer__contacts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__info ul li, .footer__contacts ul li {
+  margin-bottom: 10px;
+  color: #C8C8C8;
+}
+
+.footer__info h4, .footer__contacts h4 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.footer__contacts ul li img {
+  margin-right: 10px; /* Add spacing between icon and text */
+}
+
+/* Right: Social Media Section */
+.footer__socialsSection {
+  position: absolute;
+  left: 1035px; /* X-axis positioning */
+  top: 58px;    /* Y-axis positioning */
+  width: 193px; /* Width of the social media section */
+  height: 64px; /* Height of the social media section */
+}
+
+.footer__socialsSection h4 {
+  margin-bottom: 25px;
+}
+
+.footer__socials {
+  display: flex;
+  gap: 28px; /* Reduce gap between the icons */
+}
+
+.footer__bottom {
+  text-align: center;
+  margin-top: 20px;
+  color: #C8C8C8;
+}
