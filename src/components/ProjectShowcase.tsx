@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+
 export default function ProjectShowcase() {
     return (
       <div className='flex justify-center'>
